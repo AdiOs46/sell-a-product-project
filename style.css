@@ -1,0 +1,349 @@
+/* Desktop Only */
+@media screen and (min-width: 1025px) {
+  body {
+    font-family: 'Inter';
+    font-style: normal;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+
+  .imagePane, .infoPane {
+    flex: 1;
+  }
+
+  .topContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+    height: 90vh;
+    /* background-color: #E4E4E4; */
+    margin-left: 2vh;
+    margin-top: 4vh;
+  }
+
+  .mainImageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .mainImageContainer img {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+  }
+
+  .smallImageContainer {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 15vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  .smallImageContainer img {
+    margin-top: 2%;
+    width: 115px;
+    height: 115px;
+    border: 3px;
+    border-radius: 6px;
+  }
+
+  .headingText {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+  }
+
+  /* Marmeto */
+  .headingText p{
+    width: 68px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B9BBBF;
+  }
+
+  /* Embrace Sideboard */
+  .headingText span {
+    width: 265px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+  }
+
+  .linebreak {
+    width: 582px;
+    height: 0px;
+    border: 1px solid #E4E4E4;
+    margin-top: 2%;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+    gap: 6px;
+    width: 183px;
+    height: 72px;
+  }
+
+  .sameLinePrices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .price .currentPrice {
+    width: 183px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 34px;
+    color: #3A4980;
+    margin-right: 10px;
+  }
+
+  .percentOff {
+    width: 81px;
+    height: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.41px;
+    text-align: left;
+    color: #FF000080;
+  }
+
+  .price .discounted {
+    width: 107px;
+    height: 25px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.41px;
+    text-decoration: line-through;
+    color: #00000080;
+  }
+
+  .chooseColorContainer {
+    padding: 0px;
+    gap: 13px;
+    width: 292px;
+    height: 96px;
+    left: 778px;
+    top: 299px;
+  }
+
+  .colorOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .chooseColorContainer p{
+    width: 118px;
+    height: 19px;
+    gap: 0px;
+    opacity: 0px;
+    color: #B9BBBF;
+  }
+
+  .chooseColorContainer .colorOptions #block1, #block2, #block3, #block4 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .colorOptions #block1 {
+    border: 3px solid #ECDECC;
+  }
+
+  .colorOptions #block2 {
+    border: 3px solid #BBD278;
+  }
+
+  .colorOptions #block3 {
+    border: 3px solid #BBC1F8;
+  }
+
+  .colorOptions #block4 {
+    border: 3px solid #FFD3F8;
+  }
+
+  .chooseSizeContainer {
+    padding: 0px;
+    gap: 13px;
+    width: 292px;
+    height: 96px;
+    left: 778px;
+    top: 299px;
+  }
+
+  .chooseSizeContainer p {
+    color: #B9BBBF
+  }
+
+  .sizeOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7px 10px;
+    gap: 6%;
+  }
+
+  .sizeOptions #btn1, .sizeOptions #btn2, .sizeOptions #btn3, .sizeOptions #btn4, .sizeOptions #btn5 {
+    display: flex;
+    flex-direction: row;
+    background-color: #F3F3F3;
+    align-items: center;
+    border-radius: 8px;
+  }
+
+  .sizeOptions input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    left: 10px;
+    gap: 0px;
+    border-radius: 32px;
+    border: 1px;
+  }
+
+  .sizeOptions label {
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: #726C6C;
+    height: 17px;
+  }
+
+  .sizeOptions #btn1 {
+    width: 81px;
+  }
+
+  .sizeOptions #btn1 label {
+    width: 37px;
+  }
+
+  .sizeOptions #btn2 {
+    width: 98px;
+  }
+
+  .sizeOptions #btn2 label {
+    width: 54px;
+  }
+
+  .sizeOptions #btn3 {
+    width: 81px;
+  }
+
+  .sizeOptions #btn3 label {
+    width: 38px;
+  }
+
+  .sizeOptions #btn4 {
+    width: 121px;
+  }
+
+  .sizeOptions #btn4 label {
+    width: 77px;
+  }
+  .sizeOptions #btn5 {
+    width: 71px;
+  }
+
+  .sizeOptions #btn5 label {
+    width: 27px;
+  }
+
+  .purchase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 169px;
+    height: 59px;
+    border-radius: 29.5px;
+    background-color: #F3F3F3;
+  }
+
+  .quantity-button {
+    border: none;
+    height: 22px;
+    background-color: #F3F3F3;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.78px;
+    color: #3A4980;
+    padding: 0 30px;
+  }
+
+  #quantity-number {
+    height: 27px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.63px;
+    color: #3A4980;
+  }
+
+  .addCart .btnCart {
+    width: 309px;
+    height: 59px;
+    border-radius: 29.5px;
+    background-color: #3A4980;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    color: #FFFFFF;
+    margin-right: 11vw;
+  }
+
+  .Description {
+    width: 558px;
+    height: 224px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #A3A3A3;
+  }
+
+  .onPurchase {
+    display: none;
+    margin-top: 15px;
+    width: 550px;
+    height: 31px;
+    background-color: #E7F8B7;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .onPurchase span{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+  }
+}
